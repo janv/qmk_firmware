@@ -32,10 +32,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS_PER_SIDE (MATRIX_ROWS / 2)
 #define MATRIX_COLS 6
 
+// #define MOUSEKEY_INTERVAL       20
+// #define MOUSEKEY_DELAY          0
+// #define MOUSEKEY_TIME_TO_MAX    60
+// #define MOUSEKEY_MAX_SPEED      7
+// #define MOUSEKEY_WHEEL_DELAY 0
 #define MOUSEKEY_INTERVAL       20
-#define MOUSEKEY_DELAY          0
-#define MOUSEKEY_TIME_TO_MAX    60
-#define MOUSEKEY_MAX_SPEED      7
+#define MOUSEKEY_DELAY          50
+#define MOUSEKEY_TIME_TO_MAX    16
+#define MOUSEKEY_MAX_SPEED      3
 #define MOUSEKEY_WHEEL_DELAY 0
 
 #define DEBOUNCE 30
