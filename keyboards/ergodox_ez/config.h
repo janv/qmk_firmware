@@ -37,11 +37,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define MOUSEKEY_TIME_TO_MAX    60
 // #define MOUSEKEY_MAX_SPEED      7
 // #define MOUSEKEY_WHEEL_DELAY 0
-#define MOUSEKEY_INTERVAL       20
+#define MOUSEKEY_INTERVAL       16
 #define MOUSEKEY_DELAY          50
 #define MOUSEKEY_TIME_TO_MAX    16
-#define MOUSEKEY_MAX_SPEED      3
+#define MOUSEKEY_MAX_SPEED      4
 #define MOUSEKEY_WHEEL_DELAY 0
+
+#define MK_COMBINED
 
 #define DEBOUNCE 30
 
